@@ -1,0 +1,280 @@
+.THIS .capricornHeader {
+    width: 100%;
+    padding: 20px 0 20px 0;
+    background-color: inherit;
+    border-bottom: none;
+}
+
+.THIS .capricornHeader .capricornHeaderContent {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: inherit;
+    margin: inherit;
+}
+.THIS .forceCommunityGlobalNavigation {
+    background-color:rgba(255,255,255,0);
+}
+
+.THIS .capricornNavBar {
+    flex: 1;
+}
+
+.THIS .forceCommunityNavigationMenu {
+    background-color: initial;
+    border-top: none;
+}
+
+.THIS .forceCommunityNavigationMenu .navigationMenu {
+    margin: 0;
+    max-width: inherit;
+    background-color:transparent;
+    opacity: .1;
+}
+
+.THIS .forceCommunityNavigationMenu .menuItemLink,
+.THIS .forceCommunityNavigationMenu .menuItemLink.triggerLink {
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    opacity: .1;
+}
+.THIS .forceCommunityNavigationMenu .menuItemLink.homeButton {
+    opacity: .1;
+}
+.THIS .forceCommunityNavigationMenu .menuItemLink.homeButton:hover {
+    opacity: .1;
+    background-color: inherit;
+    color: rgba(255,255,255,0.7);
+}
+
+.THIS .forceCommunityNavigationMenu .menuItemLink {
+    transition: 0.0s all;   
+}
+
+.THIS .forceCommunityNavigationMenu .menuItemLink:hover,
+.THIS .forceCommunityNavigationMenu .menuItemLink:focus,
+.THIS .forceCommunityNavigationMenu .menuItemLink.triggerLink:hover,
+.THIS .forceCommunityNavigationMenu .menuItemLink.triggerLink:focus,
+.THIS .forceCommunityNavigationMenu .menuItem.current .menuItemLink,
+.THIS .forceCommunityNavigationMenu .menuItem.current .menuItemLink.triggerLink {
+    background-color: none;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.THIS .selfServiceProfileMenuTrigger {
+    padding: 0;
+}
+
+.THIS .selfServiceProfileMenuTrigger {
+    color: white;
+    box-shadow: none;
+}
+
+.THIS .selfServiceProfileMenu .popupTargetContainer {
+    border-radius: 4px;
+    background-color: rgba9255(255,255,255,0.8);
+}
+
+.THIS .selfServiceProfileMenuTrigger .profileName {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+.THIS .selfServiceProfileMenuTrigger .profileName,
+.THIS .selfServiceProfileMenuTrigger .triggerDownArrow,
+.THIS .selfServiceProfileMenu .menuList li > a {
+    color: white;
+}
+
+.THIS .selfServiceProfileMenu .menuList {
+    margin-top: 10px;
+    min-width: 220px;
+}
+
+.THIS .selfServiceProfileMenu .menuList li > a {
+    padding: 13px 18px;
+    font-weight: 300;
+    font-size: 16px;
+    transition: 0.2s all;
+    outline: none;
+}
+
+.THIS .selfServiceProfileMenuTrigger .profileName
+.THIS .selfServiceProfileMenu .menuList li > a:hover,
+.THIS .selfServiceProfileMenu .menuList li > a:focus {
+    font-weight: 500;
+}
+
+.THIS .capricornBackground {
+    display: none;
+}
+
+.THIS .capricornBackground {
+    display: block;
+}
+
+.THIS .capricornBackground {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index:-100;
+}
+
+.THIS .capricornContent {
+    position:absolute;	
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.THIS .capricornContent .ui-widget {
+    margin: 0;
+}
+
+.THIS .forceTopFeaturedTopics .listContent {
+    width: 100%;
+}
+
+.THIS .forceTopicFeaturedTopics .topicList {
+    display: flex;
+    overflow: visible;
+}
+
+.THIS .forceTopicFeaturedTopicItem.topicItem {
+    height: 70px;
+    position: relative;
+    transition: 0.3s all ease;
+    flex: 1;
+}
+
+.THIS .forceTopicFeaturedTopicItem.topicITem:hover {
+    z-index: 888;
+    flex: 10;
+}
+	
+.THIS .forceTopicFeaturedTopicItem.topicItem:hover .topicLink {
+    position: absolute;
+    bottom: 2px;
+    height: 150px;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.1),0 0 25px 6px rgba(0,0,0,0.2);     
+}
+
+.THIS .forceTopicFeaturedTopicItem.topicItem:hover .topicContent {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.THIS .forceTopicFeaturedTopicItem .topicLink {
+    border-radius: 1px;
+}
+
+.THIS .forceTopicFeaturedTopicItem .topicImage {
+    opacity: 10;
+    transition: 1s all ease;
+}
+
+.THIS .forceTopicFeaturedTopicItem:hover .topicImage {
+    opacity: 1;
+    background-position: center 50%;
+}
+
+.THIS .forceTopicFeaturedTopicItem .topicLabel {
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.3s all ease;
+}
+
+.THIS .forceTopicFeaturedTopicItem:hover .topicLabel {
+    positon: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px 0;     
+}
+
+.THIS .capricornSearch {
+    display: none;
+    flex: 1;
+    border-radius: 25px
+}
+
+.THIS .forceCommunityOmniBox {
+    height: inherit;
+}
+
+.THIS .forceCommunityOmniBox .no-assigned-image .default-bg-overlay {
+    background: none;
+    height: 0;
+    border-radius: 25px
+    
+}
+
+.THIS .forceCommunityOmniBox .search-wrapper {
+    padding: 20px;
+    border-radius: 25px
+}
+
+.THIS .capricornContent .slds-col--padded {
+    padding: 0;
+}
+
+.THIS .capricornNavBar {
+    margin-left: 35px;
+}
+
+.THIS .capricornprofileMenu {
+    margin-right: 35px;
+}
+
+.THIS .capricornBackground.capricornBackgroundImage {
+    top: 0;
+}
+
+.THIS .capricornBackgroundImage {
+    height: 100%;
+    width: 100%;
+}
+
+.THIS .forceCommunityOmniBox .uiAutoCompleteList {
+    max-height:30vh;
+    overflow:scroll;
+    border-radius: 25px
+}
+
+.THIS .capricornSearch {
+    width: 55vw;
+    text-align: center;
+    margin: 0 auto;
+    flex: inherit;
+    display: block;
+    border-radius:25px;
+}
+
+.THIS .capricornCompanyLogo {
+    display: inline;
+    width: 13vw;
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+
+.THIS .capricornCompanyLogo.Hidden {
+    visibility: hidden;
+}
+
+.THIS .forceCommunityOmniBox.selfServiceSearchWeapper .search-button.uiButton {
+    background-color: inherit;
+    border-radius: 25px
+}
+
+.THIS .forceCommunitySearchBox .search-button span.label {
+    visibility: hidden;
+}
+
+.THIS .forceCommunitySearchBox .search-button.uiButton {
+    visibility: hidden;
+}
+
+.THIS .forceCommunitySearchBox {
+    border-radius: 25px;
+    border: 15px;
+    padding: 20px; 
+	opacity: .6;    
+}
