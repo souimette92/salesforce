@@ -1,0 +1,18 @@
+({
+    loadData : function(component, event) {
+        var action = component.get('c.getUserName');
+        action.setParams({
+            
+        });
+        
+        action.setCallback(this, function(response){
+            component.set('v.userName',response.getReturnValue());
+        });
+        
+        $A.enqueueAction(action);
+    },
+    
+    logSomething : function(component,event){
+        console.log('This is not the log you are looking for');
+    },
+})
