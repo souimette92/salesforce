@@ -1,0 +1,6 @@
+public class getUserName {
+    @AuraEnabled
+    public static string getUserName(){
+        return UserInfo.getName();
+    }
+}
