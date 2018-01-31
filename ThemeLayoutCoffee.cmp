@@ -1,0 +1,35 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" >
+	
+    <aura:attribute name="navBar" type="Aura.Component[]"/>
+    <aura:attribute name="profileMenu" type="Aura.Component[]"/>
+    <aura:attribute Name="search" type="Aura.Component[]"/>
+    <aura:attribute name="backgroundVideoPath" type="String" default="{!$Resource.CoffeeVideo}"/>
+    <aura:attribute name="companyLogoUrl" type="String" default="{!$Resource.Gloria}"/>
+    <div class="capricornThemeLayout">
+    
+    	<div class="capricornBackground">
+            <video class="capricornBackgroundVideo" autoplay="autoplay" loop="loop" src="{!v.backgroundVideoPath}"></video>
+        </div>
+            
+            <div class="capricornHeader">
+            	<div class="capricornHeaderContent">
+                	<div class="capricornNavBar">
+                    	{!v.navBar}
+                    </div>
+                
+                	<div class="capricornProfileMenu">
+                    	{!v.profileMenu}
+                    </div>
+                </div>
+            </div>
+        			<div class="capricornSearch">
+                        <img src="{!v.companyLogoUrl}" class="capricornCompanyLogo" />
+        					{!v.search}
+        			</div>
+            
+            <div class="capricornContent">
+                {!v.body}
+            </div>
+        </div>
+    
+</aura:component>
