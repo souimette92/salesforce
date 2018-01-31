@@ -1,0 +1,6 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" controller="getUserName"> 
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="userName" type="String" description="name from user record"/>
+    
+    <h2>Hello {!v.userName}!</h2>
+</aura:component>
